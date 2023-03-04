@@ -2,11 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HealthBase : MonoBehaviour
 {
     public Action onKill;
-
+    public Image healthBar;
     public int startLife = 10;
     public bool destroyOnKill = false;
     public float delayToKill = 0f;
@@ -28,7 +29,12 @@ public class HealthBase : MonoBehaviour
     {
         _isDead = false;
         _currentLife = startLife;
+        if (healthBar != null)
+        {
+            healthBar.fillAmount = (float)_currentLife / (float)startLife;
+        }
     }
+
 
     public void Damage(int damage)
     {
@@ -43,6 +49,10 @@ public class HealthBase : MonoBehaviour
         if(_flashColor != null)
         {
             _flashColor.Flash();
+        }
+        if (healthBar != null)
+        {
+            healthBar.fillAmount = (float)_currentLife / (float)startLife;
         }
     }
 

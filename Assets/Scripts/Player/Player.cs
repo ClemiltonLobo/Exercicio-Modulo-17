@@ -44,6 +44,10 @@ public class Player : MonoBehaviour
     {
         healthBase.onKill -= OnPlayerKill;
         animator.SetTrigger(triggerDeath);
+        if (healthBase != null)
+        {
+            healthBase.onKill -= OnPlayerKill;
+        }
     }
 
     public void Update()
