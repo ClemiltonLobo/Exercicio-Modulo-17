@@ -1876,10 +1876,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fe1085a3b8243d45a5a029a5d521cb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBar: {fileID: 0}
   startLife: 5
   destroyOnKill: 0
   delayToKill: 0
-  _flashColor: {fileID: 0}
+  _flashColor: {fileID: 408854064}
 --- !u!114 &408854066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2224,10 +2225,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fe1085a3b8243d45a5a029a5d521cb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBar: {fileID: 0}
   startLife: 5
   destroyOnKill: 0
   delayToKill: 0
-  _flashColor: {fileID: 0}
+  _flashColor: {fileID: 511325756}
 --- !u!114 &511325758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5915,7 +5917,6 @@ GameObject:
   - component: {fileID: 1312931707}
   - component: {fileID: 1312931710}
   - component: {fileID: 1312931709}
-  - component: {fileID: 1312931708}
   m_Layer: 5
   m_Name: LifeEnemy
   m_TagString: Untagged
@@ -5943,21 +5944,6 @@ RectTransform:
   m_AnchoredPosition: {x: 842.9999, y: 324.7}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1312931708
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1312931706}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f1d27331499c2a49a2dff1eec5e9e69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  filledLife: {fileID: 1312931709}
-  currentLife: 0
-  fullLife: 25
 --- !u!114 &1312931709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6148,10 +6134,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fe1085a3b8243d45a5a029a5d521cb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBar: {fileID: 0}
   startLife: 10
   destroyOnKill: 0
   delayToKill: 0
-  _flashColor: {fileID: 0}
+  _flashColor: {fileID: 1328129939}
 --- !u!1 &1330782466
 GameObject:
   m_ObjectHideFlags: 0
@@ -6380,7 +6367,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 100.958496, y: -129.14001}
-  m_SizeDelta: {x: 201.9171, y: 100}
+  m_SizeDelta: {x: 201, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1347183341
 MonoBehaviour:
@@ -7040,9 +7027,9 @@ GameObject:
   - component: {fileID: 1449572936}
   - component: {fileID: 1449572940}
   - component: {fileID: 1449572939}
-  - component: {fileID: 1449572944}
   - component: {fileID: 1449572941}
   - component: {fileID: 1449572942}
+  - component: {fileID: 1449572943}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -7126,7 +7113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MyRigidbody2D: {fileID: 1449572939}
-  healthBase: {fileID: 0}
+  healthBase: {fileID: 1449572943}
   friction: {x: -0.3, y: 0}
   speedRun: 21
   speed: 21
@@ -7154,7 +7141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreTxt: {fileID: 1696833077}
---- !u!114 &1449572944
+--- !u!114 &1449572943
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7166,6 +7153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fe1085a3b8243d45a5a029a5d521cb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBar: {fileID: 1347183341}
   startLife: 50
   destroyOnKill: 0
   delayToKill: 0
@@ -7837,6 +7825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fe1085a3b8243d45a5a029a5d521cb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBar: {fileID: 0}
   startLife: 5
   destroyOnKill: 0
   delayToKill: 0
@@ -8324,10 +8313,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fe1085a3b8243d45a5a029a5d521cb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBar: {fileID: 0}
   startLife: 5
   destroyOnKill: 0
   delayToKill: 0
-  _flashColor: {fileID: 0}
+  _flashColor: {fileID: 1687444117}
 --- !u!114 &1687444119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9293,10 +9283,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fe1085a3b8243d45a5a029a5d521cb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBar: {fileID: 0}
   startLife: 5
   destroyOnKill: 0
   delayToKill: 0
-  _flashColor: {fileID: 0}
+  _flashColor: {fileID: 1858306589}
 --- !u!114 &1858306591
 MonoBehaviour:
   m_ObjectHideFlags: 0
