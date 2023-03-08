@@ -8,7 +8,7 @@ public class HealthBase : MonoBehaviour
 {
     public Action onKill;
     public Image healthBar;
-    public int startLife = 10;
+    public int startLife = 50;
     public bool destroyOnKill = false;
     public float delayToKill = 0f;
 
@@ -46,13 +46,14 @@ public class HealthBase : MonoBehaviour
             Kill();
         }
 
-        if(_flashColor != null)
+        if (_flashColor != null)
         {
             _flashColor.Flash();
         }
         if (healthBar != null)
         {
-            healthBar.fillAmount = (float)_currentLife / (float)startLife;
+            float fillAmount = Mathf.Clamp01((float)_currentLife / (float)startLife);
+            healthBar.fillAmount = fillAmount;
         }
     }
 
