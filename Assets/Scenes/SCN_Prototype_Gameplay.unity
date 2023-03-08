@@ -1940,8 +1940,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 0}
   startLife: 5
+  maxLife: 50
   destroyOnKill: 0
   delayToKill: 0
+  _currentLife: 0
   _flashColor: {fileID: 408854064}
 --- !u!114 &408854066
 MonoBehaviour:
@@ -2289,8 +2291,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 0}
   startLife: 5
+  maxLife: 50
   destroyOnKill: 0
   delayToKill: 0
+  _currentLife: 0
   _flashColor: {fileID: 511325756}
 --- !u!114 &511325758
 MonoBehaviour:
@@ -3723,6 +3727,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8159187520666126702, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1449572941}
     - target: {fileID: 8835229685202505509, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
       propertyPath: m_Name
       value: PFB_Astronaut
@@ -6123,8 +6131,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 0}
   startLife: 10
+  maxLife: 50
   destroyOnKill: 0
   delayToKill: 0
+  _currentLife: 0
   _flashColor: {fileID: 1328129939}
 --- !u!1 &1330782466
 GameObject:
@@ -7014,8 +7024,8 @@ GameObject:
   - component: {fileID: 1449572940}
   - component: {fileID: 1449572939}
   - component: {fileID: 1449572941}
-  - component: {fileID: 1449572942}
   - component: {fileID: 1449572943}
+  - component: {fileID: 1449572944}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -7100,6 +7110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyRigidbody2D: {fileID: 1449572939}
   healthBase: {fileID: 1449572943}
+  damage: 10
   friction: {x: -0.3, y: 0}
   speedRun: 21
   speed: 21
@@ -7114,21 +7125,6 @@ MonoBehaviour:
   triggerDeath: Death
   animator: {fileID: 2076050131}
   playerSwipeDuration: 0.1
---- !u!114 &1449572942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1449572935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbd3ebd6f93178847be873e127fe2d0a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreTxt: {fileID: 1696833077}
-  lifePlayer: {fileID: 0}
-  healthBase: {fileID: 0}
 --- !u!114 &1449572943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7143,9 +7139,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 1347183341}
   startLife: 50
+  maxLife: 50
   destroyOnKill: 0
   delayToKill: 0
+  _currentLife: 0
   _flashColor: {fileID: 2076050133}
+--- !u!114 &1449572944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449572935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbd3ebd6f93178847be873e127fe2d0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreTxt: {fileID: 1696833077}
 --- !u!1 &1453476036
 GameObject:
   m_ObjectHideFlags: 0
@@ -7911,8 +7922,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 0}
   startLife: 5
+  maxLife: 50
   destroyOnKill: 0
   delayToKill: 0
+  _currentLife: 0
   _flashColor: {fileID: 0}
 --- !u!114 &1584943613
 MonoBehaviour:
@@ -8399,8 +8412,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 0}
   startLife: 5
+  maxLife: 50
   destroyOnKill: 0
   delayToKill: 0
+  _currentLife: 0
   _flashColor: {fileID: 1687444117}
 --- !u!114 &1687444119
 MonoBehaviour:
@@ -9369,8 +9384,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 0}
   startLife: 5
+  maxLife: 50
   destroyOnKill: 0
   delayToKill: 0
+  _currentLife: 0
   _flashColor: {fileID: 1858306589}
 --- !u!114 &1858306591
 MonoBehaviour:
@@ -10636,17 +10653,6 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 6413013834153556191, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
   m_PrefabInstance: {fileID: 805996564}
   m_PrefabAsset: {fileID: 0}
---- !u!210 &2076050132
-SortingGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1828461437}
-  m_Enabled: 1
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 15
 --- !u!114 &2076050133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10681,19 +10687,6 @@ MonoBehaviour:
   - {fileID: 830393412}
   color: {r: 1, g: 0, b: 0, a: 1}
   duration: 0.1
---- !u!114 &2076050134
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1828461437}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce7dfeea433043f46b795e75f5942420, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1449572941}
 --- !u!1 &2076329964
 GameObject:
   m_ObjectHideFlags: 0

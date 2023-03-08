@@ -8,26 +8,19 @@ public class CollectingCoins : MonoBehaviour
 {
 
     public TMP_Text scoreTxt;
-    public TMP_Text lifePlayer;
     private int score;
-    private int life;
-
-    public HealthBase healthBase;
 
 
     // Start is called before the first frame update
     private void Start()
     {
-        score = 0;
-        life = healthBase.startLife;
-        UpdateScoreAndLifeTexts();
-
+        score = 0;        
     }
 
     // Update is called once per frame
     private void Update()
     {
-        UpdateScoreAndLifeTexts();
+        UpdateScore();
     }
 
     private void OnTriggerEnter2D(Collider2D col)
@@ -36,17 +29,11 @@ public class CollectingCoins : MonoBehaviour
         {
             score++;
             Destroy(col.gameObject);
-        }
-        else if (col.CompareTag("Vida"))
-        {
-            life++;
-            Destroy(col.gameObject);
-        }
+        }        
     }
 
-    private void UpdateScoreAndLifeTexts()
+    private void UpdateScore()
     {
         scoreTxt.text = "Score: " + score.ToString();
-        lifePlayer.text = "Life: " + life.ToString();
     }
 }

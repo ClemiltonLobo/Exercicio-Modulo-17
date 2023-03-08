@@ -7,7 +7,8 @@ public class Player : MonoBehaviour
 {
     public Rigidbody2D MyRigidbody2D;
     public HealthBase healthBase;
-    
+    public int damage = 10;
+
     [Header("Speed Setup")]
     public Vector2 friction= new Vector2(.1f, 0);    
     public float speedRun;
@@ -37,6 +38,24 @@ public class Player : MonoBehaviour
         if(healthBase != null)
         {
             healthBase.onKill += OnPlayerKill;
+        }
+    }
+    public void RestoreHealth(float amount)
+    {
+        // Verifica se a vida atual do jogador é menor que a vida máxima permitida
+        if (healthBase.startLife < (int)healthBase._currentLife)
+        {
+            // Adiciona o valor de amount à vida atual do jogador
+            healthBase.startLife += (int)amount;
+
+            // Verifica se a vida atual do jogador ultrapassou a vida máxima permitida
+            if (healthBase.startLife > healthBase._currentLife)
+            {
+                healthBase.startLife = (int)(healthBase.startLife - damage);
+            }
+
+            // Atualiza a barra de vida na tela
+            healthBase.GainLife(healthBase._currentLife);
         }
     }
 

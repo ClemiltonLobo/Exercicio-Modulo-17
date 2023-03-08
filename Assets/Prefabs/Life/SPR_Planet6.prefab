@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3493246216158745588}
   - component: {fileID: 3787614380318893224}
   - component: {fileID: 7027703719627283002}
-  - component: {fileID: 479236802806175492}
+  - component: {fileID: 1548963925626190124}
   m_Layer: 0
   m_Name: SPR_Planet6
   m_TagString: Vida
@@ -102,7 +102,7 @@ CircleCollider2D:
   m_Offset: {x: -0.0000042915344, y: 0.032647133}
   serializedVersion: 2
   m_Radius: 2.745525
---- !u!114 &479236802806175492
+--- !u!114 &1548963925626190124
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4724516984485201217}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1e3717da29cd204f9c0ba64a61cde58, type: 3}
+  m_Script: {fileID: 11500000, guid: 5eb003d9ab975ff4fab69f4d247a11e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  compareTag: Player
+  healthAmount: 10
