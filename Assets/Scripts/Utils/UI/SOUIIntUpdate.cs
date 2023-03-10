@@ -12,16 +12,13 @@ public class SOUIIntUpdate : MonoBehaviour
     void Start()
     {
         uiTextValue.text = soInt.value.ToString();
-        soInt.onValueChanged += OnValueChanged;
     }
 
-    private void OnValueChanged(int newValue)
+    // Update is called once per frame
+    void Update()
     {
-        uiTextValue.text = newValue.ToString();
-    }
-
-    private void OnDestroy()
-    {
-        soInt.onValueChanged -= OnValueChanged;
+        uiTextValue.text = soInt.value.ToString();
+        Debug.Log("Value in SOInt: " + soInt.value);
     }
 }
+
