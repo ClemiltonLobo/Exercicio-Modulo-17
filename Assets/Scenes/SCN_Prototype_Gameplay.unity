@@ -7118,11 +7118,11 @@ MonoBehaviour:
   speedRun: 21
   speed: 21
   forceJump: 35
-  jumpScaleY: 1.1
-  jumpScaleX: 0.7
-  squatScaleX: 0.7
-  squatScaleY: 1.2
-  animatioDuration: 0.3
+  soJumpScaleY: {fileID: 11400000, guid: 99f53837bbfc89c49882ee505d005d7c, type: 2}
+  soJumpScaleX: {fileID: 11400000, guid: 88136d9e060a059409438499b7655fd4, type: 2}
+  soSquatScaleX: {fileID: 11400000, guid: 38719c5cb5ca80d47a3f300fe11366bb, type: 2}
+  soSquatScaleY: {fileID: 11400000, guid: 901d80c3f52b7824299bde2f431c0bb8, type: 2}
+  soAnimationDuration: {fileID: 11400000, guid: 47a679a50d3f4f1449515edc6ee1a2e5, type: 2}
   ease: 27
   boolRun: Run
   triggerDeath: Death

@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72d6e43be69433d489c3ef6411a68444, type: 3}
-  m_Name: SOInt_Coins
+  m_Script: {fileID: 11500000, guid: d0e8c420b25ba3d49ac252f32c3bf5cb, type: 3}
+  m_Name: SOFloat_JumpX
   m_EditorClassIdentifier: 
-  value: 47
+  value: 0.7

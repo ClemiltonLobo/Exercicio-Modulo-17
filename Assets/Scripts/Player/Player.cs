@@ -16,11 +16,17 @@ public class Player : MonoBehaviour
     public float forceJump = 2;
 
     [Header("Animation Setup")]
-    public float jumpScaleY = 0.7f;
+    /*public float jumpScaleY = 0.7f;
     public float jumpScaleX = 1.5f;
     public float squatScaleX = 1.5f;
     public float squatScaleY = 0.7f;
-    public float animatioDuration = .3f;
+    public float animatioDuration = .3f;*/
+    public SOFloat soJumpScaleY;
+    public SOFloat soJumpScaleX;
+    public SOFloat soSquatScaleX;
+    public SOFloat soSquatScaleY;
+    public SOFloat soAnimationDuration;
+
     public Ease ease = Ease.OutBack;
 
     [Header("Animation Player")]
@@ -138,14 +144,14 @@ public class Player : MonoBehaviour
 
     private void HandleScaleJump()
     {
-        MyRigidbody2D.transform.DOScaleY(jumpScaleY, animatioDuration).SetLoops(2, LoopType.Yoyo).SetEase(ease);
-        MyRigidbody2D.transform.DOScaleX(jumpScaleX, animatioDuration).SetLoops(2, LoopType.Yoyo).SetEase(ease);
+        MyRigidbody2D.transform.DOScaleY(soJumpScaleY.value, soAnimationDuration.value).SetLoops(2, LoopType.Yoyo).SetEase(ease);
+        MyRigidbody2D.transform.DOScaleX(soJumpScaleX.value, soAnimationDuration.value).SetLoops(2, LoopType.Yoyo).SetEase(ease);
     }
 
     private void HandleScaleSquat()
     {
-        MyRigidbody2D.transform.DOScaleY(squatScaleY, animatioDuration).SetLoops(2, LoopType.Yoyo).SetEase(ease);
-        MyRigidbody2D.transform.DOScaleX(squatScaleX, animatioDuration).SetLoops(2, LoopType.Yoyo).SetEase(ease);
+        MyRigidbody2D.transform.DOScaleY(soSquatScaleY.value, soAnimationDuration.value).SetLoops(2, LoopType.Yoyo).SetEase(ease);
+        MyRigidbody2D.transform.DOScaleX(soSquatScaleX.value, soAnimationDuration.value).SetLoops(2, LoopType.Yoyo).SetEase(ease);
     }
 
     public void DestroyMe()
