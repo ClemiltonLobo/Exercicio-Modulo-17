@@ -1234,11 +1234,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!212 &205370783 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 5842915932965311795, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 805996564}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &207687217
 GameObject:
   m_ObjectHideFlags: 0
@@ -1381,11 +1376,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!212 &254199053 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 4546307769011690981, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 805996564}
-  m_PrefabAsset: {fileID: 0}
 --- !u!212 &269334316 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 4402658883949824882, guid: 3de838754c767a446a5473969062a84e, type: 3}
@@ -1800,11 +1790,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
---- !u!212 &403784340 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 7274142433465299202, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 805996564}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &408854059
 GameObject:
   m_ObjectHideFlags: 0
@@ -2146,11 +2131,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
---- !u!212 &508799355 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 3381466231696810971, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 805996564}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &508799356 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5000455042689278068, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
@@ -2701,11 +2681,6 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 4058282757918593861, guid: 3de838754c767a446a5473969062a84e, type: 3}
   m_PrefabInstance: {fileID: 382892363}
   m_PrefabAsset: {fileID: 0}
---- !u!212 &589334988 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 3517653971288608096, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 805996564}
-  m_PrefabAsset: {fileID: 0}
 --- !u!212 &589535420 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 8622257899716607877, guid: 3de838754c767a446a5473969062a84e, type: 3}
@@ -2783,11 +2758,6 @@ MonoBehaviour:
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 3096084783782573798, guid: 3de838754c767a446a5473969062a84e, type: 3}
   m_PrefabInstance: {fileID: 186345592}
-  m_PrefabAsset: {fileID: 0}
---- !u!212 &629167523 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 2936941509222344250, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 805996564}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &630259878 stripped
 Transform:
@@ -3218,11 +3188,6 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 3294411287784764205, guid: 3de838754c767a446a5473969062a84e, type: 3}
   m_PrefabInstance: {fileID: 1634024051}
   m_PrefabAsset: {fileID: 0}
---- !u!212 &765807805 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 9069580248349405312, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 805996564}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &774124393
 GameObject:
   m_ObjectHideFlags: 0
@@ -3237,7 +3202,7 @@ GameObject:
   - component: {fileID: 774124395}
   m_Layer: 0
   m_Name: SPR_Floor (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3644,6 +3609,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1449572936}
     m_Modifications:
+    - target: {fileID: 704210425659005227, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.04267298
+      objectReference: {fileID: 0}
+    - target: {fileID: 704210425659005227, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.9990891
+      objectReference: {fileID: 0}
     - target: {fileID: 2979093999011142591, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.97654074
@@ -3736,6 +3709,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PFB_Astronaut
       objectReference: {fileID: 0}
+    - target: {fileID: 8835229685202505509, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835229685202505509, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 9025240814598423278, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.29032663
@@ -3774,16 +3755,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
---- !u!212 &830393412 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 4989476794605110809, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 805996564}
-  m_PrefabAsset: {fileID: 0}
---- !u!212 &832819774 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 7301150156096908687, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 805996564}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &899225280
 GameObject:
   m_ObjectHideFlags: 0
@@ -4416,7 +4387,7 @@ GameObject:
   - component: {fileID: 960021899}
   m_Layer: 0
   m_Name: SPR_Floor (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4571,11 +4542,6 @@ SpriteShapeRenderer:
   m_LocalAABB:
     m_Center: {x: 11.891609, y: 1.3867385, z: 0}
     m_Extent: {x: 113.00081, y: 3.6211388, z: 0}
---- !u!212 &967230677 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 6935664543094779335, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 805996564}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &967671480
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5347,11 +5313,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
---- !u!212 &1124960856 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 1637968192941115163, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 805996564}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1133851255
 GameObject:
   m_ObjectHideFlags: 0
@@ -5395,11 +5356,6 @@ Transform:
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 3294411287784764205, guid: 3de838754c767a446a5473969062a84e, type: 3}
   m_PrefabInstance: {fileID: 664733926}
-  m_PrefabAsset: {fileID: 0}
---- !u!212 &1153106965 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 2672610142402919951, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 805996564}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1163150837
 GameObject:
@@ -5462,7 +5418,7 @@ GameObject:
   - component: {fileID: 1169562934}
   m_Layer: 0
   m_Name: SPR_Floor (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5834,11 +5790,6 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 2944600070154927280, guid: 3de838754c767a446a5473969062a84e, type: 3}
   m_PrefabInstance: {fileID: 935908172}
   m_PrefabAsset: {fileID: 0}
---- !u!212 &1239179029 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 1181252494661186000, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 805996564}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1261915539
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5937,11 +5888,6 @@ RectTransform:
   m_AnchoredPosition: {x: 3.8300323, y: 0.15000057}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!212 &1283606342 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 7718624693209762858, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 805996564}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1305944015
 GameObject:
   m_ObjectHideFlags: 0
@@ -7114,20 +7060,8 @@ MonoBehaviour:
   MyRigidbody2D: {fileID: 1449572939}
   healthBase: {fileID: 1449572943}
   damage: 10
-  friction: {x: -0.3, y: 0}
-  speedRun: 21
-  speed: 21
-  forceJump: 35
-  soJumpScaleY: {fileID: 11400000, guid: 99f53837bbfc89c49882ee505d005d7c, type: 2}
-  soJumpScaleX: {fileID: 11400000, guid: 88136d9e060a059409438499b7655fd4, type: 2}
-  soSquatScaleX: {fileID: 11400000, guid: 38719c5cb5ca80d47a3f300fe11366bb, type: 2}
-  soSquatScaleY: {fileID: 11400000, guid: 901d80c3f52b7824299bde2f431c0bb8, type: 2}
-  soAnimationDuration: {fileID: 11400000, guid: 47a679a50d3f4f1449515edc6ee1a2e5, type: 2}
-  ease: 27
-  boolRun: Run
-  triggerDeath: Death
-  animator: {fileID: 2076050131}
-  playerSwipeDuration: 0.1
+  soPlayer: {fileID: 11400000, guid: 42a348375e882794a8ad8ab27829f318, type: 2}
+  maxJumps: 2
 --- !u!114 &1449572943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7657,7 +7591,7 @@ GameObject:
   - component: {fileID: 1564504380}
   m_Layer: 0
   m_Name: SPR_Floor
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8710,11 +8644,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soInt: {fileID: 11400000, guid: f2d45f0e94b1b27489c096bc1975b831, type: 2}
   uiTextValue: {fileID: 1696833077}
---- !u!212 &1701168749 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 3971700845632200199, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 805996564}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1718405205
 GameObject:
   m_ObjectHideFlags: 0
@@ -8779,11 +8708,6 @@ SpriteRenderer:
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 3294411287784764205, guid: 3de838754c767a446a5473969062a84e, type: 3}
   m_PrefabInstance: {fileID: 935908172}
-  m_PrefabAsset: {fileID: 0}
---- !u!212 &1753381356 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 9145059997782691051, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 805996564}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1757079257
 GameObject:
@@ -8946,7 +8870,7 @@ GameObject:
   - component: {fileID: 1798450923}
   m_Layer: 0
   m_Name: SPR_Floor (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9195,11 +9119,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1828461437 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8835229685202505509, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 805996564}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1831219465
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9555,11 +9474,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!212 &1875192034 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 5421898557666172458, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 805996564}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1877799851
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9714,11 +9628,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!212 &1907362732 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 8789406625549365556, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 805996564}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1909402816
 GameObject:
   m_ObjectHideFlags: 0
@@ -9770,7 +9679,7 @@ GameObject:
   - component: {fileID: 1947916528}
   m_Layer: 0
   m_Name: SPR_Floor (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10262,7 +10171,7 @@ GameObject:
   - component: {fileID: 2022370853}
   m_Layer: 0
   m_Name: SPR_Floor (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10712,45 +10621,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8007466312498025151, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
   m_PrefabInstance: {fileID: 805996564}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &2076050131 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 6413013834153556191, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
+--- !u!114 &2076050133 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6374055680952356519, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
   m_PrefabInstance: {fileID: 805996564}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2076050133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1828461437}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ad5886f0e872984085c41b665d1a367, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteRenderers:
-  - {fileID: 1153106965}
-  - {fileID: 254199053}
-  - {fileID: 205370783}
-  - {fileID: 589334988}
-  - {fileID: 1701168749}
-  - {fileID: 508799355}
-  - {fileID: 832819774}
-  - {fileID: 1875192034}
-  - {fileID: 1753381356}
-  - {fileID: 1124960856}
-  - {fileID: 1283606342}
-  - {fileID: 765807805}
-  - {fileID: 1239179029}
-  - {fileID: 967230677}
-  - {fileID: 1907362732}
-  - {fileID: 629167523}
-  - {fileID: 2083807833}
-  - {fileID: 403784340}
-  - {fileID: 830393412}
-  color: {r: 1, g: 0, b: 0, a: 1}
-  duration: 0.1
 --- !u!1 &2076329964
 GameObject:
   m_ObjectHideFlags: 0
@@ -10920,11 +10801,6 @@ SpriteShapeRenderer:
   m_LocalAABB:
     m_Center: {x: 11.891609, y: 1.3867385, z: 0}
     m_Extent: {x: 113.00081, y: 3.6211388, z: 0}
---- !u!212 &2083807833 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 1918426282720007879, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 805996564}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2088661513 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8073972946613542793, guid: 3de838754c767a446a5473969062a84e, type: 3}

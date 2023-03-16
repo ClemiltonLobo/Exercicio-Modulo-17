@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Moeda
   - Vida
+  - Ground
   layers:
   - Default
   - TransparentFX
