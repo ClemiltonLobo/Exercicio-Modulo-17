@@ -219,10 +219,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (5)
@@ -284,10 +280,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (18)
@@ -349,10 +341,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (8)
@@ -583,10 +571,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (15)
@@ -699,10 +683,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (21)
@@ -811,10 +791,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (2)
@@ -1501,10 +1477,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (9)
@@ -1765,22 +1737,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2202215231333092637, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_Radius
-      value: 5.33076
-      objectReference: {fileID: 0}
-    - target: {fileID: 2202215231333092637, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.15772724
-      objectReference: {fileID: 0}
-    - target: {fileID: 2202215231333092637, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.041326523
-      objectReference: {fileID: 0}
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (16)
@@ -1842,10 +1798,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (14)
@@ -2343,10 +2295,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (11)
@@ -3242,10 +3190,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (23)
@@ -3880,10 +3824,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (7)
@@ -4470,10 +4410,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (4)
@@ -4908,10 +4844,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (10)
@@ -5929,10 +5861,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (19)
@@ -6241,7 +6169,7 @@ MonoBehaviour:
   MyRigidbody2D: {fileID: 1449572939}
   healthBase: {fileID: 1449572943}
   damage: 10
-  soPlayer: {fileID: 11400000, guid: 5218eccc2c2f5c7459f5ec43598c3b9d, type: 2}
+  soPlayer: {fileID: 11400000, guid: 42a348375e882794a8ad8ab27829f318, type: 2}
   maxJumps: 2
 --- !u!114 &1449572943
 MonoBehaviour:
@@ -6261,7 +6189,7 @@ MonoBehaviour:
   destroyOnKill: 0
   delayToKill: 0
   _currentLife: 0
-  _flashColor: {fileID: 0}
+  _flashColor: {fileID: 2076050131}
 --- !u!114 &1449572944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6366,10 +6294,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (1)
@@ -6431,10 +6355,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (24)
@@ -7081,10 +7001,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (25)
@@ -8546,10 +8462,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (3)
@@ -8822,10 +8734,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (6)
@@ -9074,10 +8982,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (12)
@@ -9349,10 +9253,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (20)
@@ -9601,6 +9501,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1637710628337769381, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
   m_PrefabInstance: {fileID: 1637710628712503671}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2076050131 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1637710628337769378, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
+  m_PrefabInstance: {fileID: 1637710628712503671}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad5886f0e872984085c41b665d1a367, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2076329964
 GameObject:
   m_ObjectHideFlags: 0
@@ -9828,10 +9739,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1978219860}
     m_Modifications:
-    - target: {fileID: 4693964848786401515, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7699207792329236396, guid: fc9b0d278060308428e7c6ec3e164bad, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (13)
