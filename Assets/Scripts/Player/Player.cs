@@ -65,6 +65,10 @@ public class Player : MonoBehaviour
 
     private void HandleMoviment()
     {
+        if (_currentPlayer == null)
+        {
+            return;
+        }
         if (Input.GetKey(KeyCode.LeftControl))
         {
             _currentSpeed = soPlayer.speedRun;

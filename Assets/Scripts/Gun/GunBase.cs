@@ -13,9 +13,9 @@ public class GunBase : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.S))
         {
-           _currentCoroutine = StartCoroutine(StartShoot());
+            _currentCoroutine = StartCoroutine(StartShoot());
         }
         else if (Input.GetKeyUp(KeyCode.S))
         {
@@ -24,9 +24,10 @@ public class GunBase : MonoBehaviour
         }
     }
 
+
     IEnumerator StartShoot()
     {
-        while(true)
+        while (true)
         {
             Shoot();
             yield return new WaitForSeconds(timeBetweenShoot);
@@ -39,4 +40,5 @@ public class GunBase : MonoBehaviour
         projectile.transform.position = positionToShoot.position;
         projectile.side = playerSideReference.transform.localScale.x;
     }
+
 }
