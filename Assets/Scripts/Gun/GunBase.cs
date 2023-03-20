@@ -38,7 +38,7 @@ public class GunBase : MonoBehaviour
     {
         var projectile = Instantiate(prefabProjectile);
         projectile.transform.position = positionToShoot.position;
-        projectile.side = playerSideReference.transform.localScale.x;
+        projectile.side = Mathf.Sign(playerSideReference.localScale.x);
     }
 
 }

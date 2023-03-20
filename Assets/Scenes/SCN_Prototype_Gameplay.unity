@@ -9852,9 +9852,9 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1637710628630552759, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3
+    - target: {fileID: 1637710628461235826, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 1637710629560861318, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
       propertyPath: m_FlipX

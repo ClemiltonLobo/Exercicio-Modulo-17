@@ -50,6 +50,7 @@ public class HealthBase : MonoBehaviour
         if (_flashColor != null)
         {
             _flashColor.Flash();
+            Debug.Log("o player tomou um dano");
         }
         if (healthBar != null)
         {

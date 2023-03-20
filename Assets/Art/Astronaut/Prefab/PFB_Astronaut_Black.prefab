@@ -1227,7 +1227,7 @@ GameObject:
   - component: {fileID: 1637710628337769378}
   m_Layer: 0
   m_Name: PFB_Astronaut_Black
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

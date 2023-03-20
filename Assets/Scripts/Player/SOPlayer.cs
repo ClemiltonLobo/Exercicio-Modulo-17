@@ -7,6 +7,7 @@ using UnityEngine;
 public class SOPlayer : ScriptableObject
 {
     public Animator player;
+    public SOString soStringName;
 
     [Header("Speed Setup")]
     public Vector2 friction = new Vector2(.1f, 0);
